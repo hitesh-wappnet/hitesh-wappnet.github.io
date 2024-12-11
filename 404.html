@@ -1,1 +1,17 @@
-I am 404 fileeee
+<!-- 404.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Redirecting...</title>
+    <script>
+        // Redirect unknown routes to index.html while keeping the URL intact
+        window.location.replace('/?' + window.location.pathname.slice(1));
+    </script>
+</head>
+<body>
+    <p>Redirecting...</p>
+</body>
+</html>
+
